@@ -10,16 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Permanent+Marker&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
-<body>
-    <header class="header">
-        <div >  
-            <section class="bem">
-                <h2 class="encabezado">ENVIOS GRATIS A PARTIR DE $3000</h2>  
-                <img class="logo animate__animated animate__wobble" src="../images/logo-handfatim180px180px.png" alt="Logo" >
-                <nav>
-                    <ul class="cuenta">
+
+<body class="body">
+    <header class="header caja_header">
+        
+        <section class="bem hero">
+            <div class="hero__contenedor">
+                <div class="hero__center">
+                    <h2 class="encabezado">ENVIOS GRATIS A PARTIR DE $3000</h2> 
+                    <img class="logo animate__animated animate__wobble" src="../images/logo-handfatim180px180px.png" alt="Logo" >
+                </div>
+
+                <div class="hero__right">
+                    <ul>
                         <li>
                             <a href="">Crear Cuenta</a>
                         </li>
@@ -27,34 +33,39 @@
                             <a href="">Iniciar Sesión</a>
                         </li>
                     </ul>
-                </nav>
-                <h1 class="header">MOROCCO HOME</h1>
+                </div>
+
+                <div class="hero__titlecenter">
+                    <h1>MOROCCO HOME</h1>   
+                </div>
+
+                <div class="caja-enlaces hero__left">
+                    <nav>
+                        <a class="btn-open-sidebar" href="#sidebar"><i class= "fas fa-bars"></i></a>
+                        <ul>
+                            <li class="enlaces">
+                                <a href="../index.html">Inicio</a>
+                            </li>
+                            <li class="enlaces">
+                                <a href="../pages/catalogo.html">Catálogo</a>
+                            </li>
+                            <li class="enlaces">
+                                <a href="../pages/quienessomos.html">Quienes Somos</a>
+                            </li>
+                            <li class="enlaces">
+                                <a href="../pages/comocomprar.html">Como Comprar</a>
+                            </li>
+                            <li class="enlaces">
+                                <a href="../pages/contacto.html">Contacto</a> 
+                            </li>
+                        </ul>       
+                    </nav>            
+                </div>
             
-            </section>
-   
-        </div>
-        <div >
-            <nav>
-                    <ul>
-                        <li class="enlaces">
-                            <a href="../index.html">Inicio</a>
-                        </li>
-                        <li class="enlaces">
-                            <a href="catalogo.html">Catálogo</a>
-                        </li>
-                        <li class="enlaces">
-                            <a href="./quienessomos.html">Quienes Somos</a>
-                        </li>
-                        <li class="enlaces">
-                            <a href="./comocomprar.html">Como Comprar</a>
-                        </li>
-                        <li class="enlaces">
-                            <a href="./contacto.html">Contacto</a> 
-                        </li>
-                    </ul>       
-            </nav>               
-        </div>  
+        </section>
+            
     </header>
+    
    
     <main class="main__contenedor">  
         <section class="cajacatalogo grid1 ">
