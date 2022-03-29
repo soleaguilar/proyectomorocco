@@ -33,19 +33,44 @@
     align-items: center;
 }
 
+/*ENLACES*/
+
 .caja-enlaces {
     font-size: 20px;
+    text-align: center;
     margin-top: 150px;
     display: flex;
-    align-items: flex-start;
     justify-content: space-between;
-}
-
-.enlaces {
     font-weight: bold;
     display: inline-block; 
-    font-size: 120%;
 }
+
+.bg-black {
+    background-color: #000
+}
+
+.navbar-nav {
+    width: 100%
+}
+
+.nav-item {
+    padding: 6px 14px;
+    text-align: center
+}
+
+.nav-link {
+    padding-bottom: 10px
+}
+
+
+@media (max-width: 1200px) {
+    .nav-item {
+        width: 100%;
+        text-align: left
+    }
+}
+
+/*ENLACES*/
 
 .bem {
     height: 100vh;
@@ -252,7 +277,7 @@
 }
 
 
-/*pagina catalogo*/
+/*PAGINA CATALOGO*/
 
 .catalogo {
     text-align: center;
@@ -388,6 +413,83 @@
     display: grid;
     justify-items: center;
 }
+
+/* PAGINA CONTACTO*/
+
+.fondo {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.texto-contacto {
+    padding: 4rem;
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.card {
+    padding: 30px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.texto {
+    color: #000;
+    font-size: 20px;
+    align-items: center;
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
 
 
 @media screen and (max-width: 600px) {
