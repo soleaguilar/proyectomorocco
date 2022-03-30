@@ -196,20 +196,13 @@
     margin-left: auto;
 }
 
-.titulo-destacados {
-    font-weight: bold;
-    font-size: 30px;
-}
-.titulo-promo {
-    font-weight: bold;
-    font-size: 30px;
-}
+
 .caja {
   
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-top: auto;
     max-width: 1200px;
     width: 100%;
     min-height: 500px;
@@ -492,11 +485,12 @@ button:focus {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
 
     .header {
        height: auto;
     }
+
     .header__contenedor {
         flex-direction: column;
     }
@@ -512,6 +506,15 @@ button:focus {
         flex-direction: column;
         height: auto;
         width: 100%;
+    }
+    .hero__contenedor  {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .hero__titlecenter {
+        width: auto;
     }
 
     .nav  {
