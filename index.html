@@ -27,16 +27,26 @@
                     <img class="logo animate__animated animate__wobble" src="../moroccohome-11-aguilar/images/logo-handfatim180px180px.png" alt="Logo" >
                 </div>
 
-                <div>
-                    <ul  class="hero__right">
-                        <li>
-                            <a href="">Crear Cuenta</a>
-                        </li>
-                        <li>    
-                            <a href="">Iniciar Sesión</a>
-                        </li>
-                    </ul>
-                </div>
+<div class="container__usuario">
+    <form role="form">
+        <div id="toggle-form " class="collapse" aria-expanded="false">
+          <label class="zip-label">Zip Code</label>
+          <input type="text" tabindex="1" size="5" max="5" ng-minlength="5" name="zipcode" pattern="[0-9]*" required>
+          <button class="submit-btn" type="submit">Crear Cuenta</button>
+        </div>
+        <button class="toggle-btn  hero__right" href="#toggle-form" data-toggle="collapse">Crear Cuenta</button>
+      </form>
+
+      <form role="form">
+          <div id="toggle-form" class="collapse" aria-expanded="false">
+            <label class="zip-label">Zip Code</label>
+            <input type="text" tabindex="1" size="5" max="5" ng-minlength="5" name="zipcode" pattern="[0-9]*" required>
+            <button class="submit-btn hero__right" type="submit">Iniciar Sesión</button>
+          </div>
+          <button class="toggle-btn hero__right" href="#toggle-form" data-toggle="collapse">Iniciar Sesión</button>    
+      </form>
+</div>       
+        
 
                 <div class="hero__titlecenter">
                     <h1>MOROCCO HOME</h1>   
@@ -68,10 +78,12 @@
                 <img class="centrar " src="./images/Diseño sin título.png" alt="Imageninicio">    
             </div>
         </div>
-   
+   <div>
+       
+   </div>
         <section class="caja grid hero__contenedormain"> 
             <div class="hero__categorias">
-                <article class="nav">
+                <article class="nav ">
                     <h3>CATEGORIAS</h3>
                         <ul>
                             <li  class="main-categorias">
@@ -88,55 +100,57 @@
                             </li>
                         </ul>
                 </article>
-            </div>  
+            </div>    
+           
+            <div class="producto-destacado">
+                <h3 class="titulo-destacados">PRODUCTOS DESTACADOS</h3>
+            </div>
 
-            <div class="container">
-                <div class="row">
-        
-                    <div class="producto-destacado">
-                        <h3 class="destacados">PRODUCTOS DESTACADOS</h3>
-                    </div>
-                    
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
-        
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
-        
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
+            <div class="image1 main__image1 ">
+                <img class=" productos" src="./images/lamp-azul-150px.png" alt="imagen">
+                <div class="overlay_image1">
+                    <p class="p1">Lorem ipsum dolor sit.</p>
+                </div>
+            </div> 
                 
-                  
-                </div>
-                <div class="row">
-                    <div class="producto-promo">
-                        <h3 class="promociones">PRODUCTOS PROMO</h3>
-                    </div>
-        
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
-            
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
-            
-                    <a href="" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-                        <img src="./images/lamp-azul-150px.png" class="img-fluid rounded">
-                        <p class="p1 ">Lorem ipsum dolor sit.</p>
-                    </a>
-                </div>
-              </div>
-        
+            <div class="image2 ">
+                <img src="./images/lamp-star-150px.png" alt="imagen">
+            </div>
+
+            <p class="p2  ">
+                Lorem ipsum dolor sit.
+            </p>
+            <div class="image3 ">
+                <img src="./images/vela-cherry150px.png" alt="imagen">
+            </div>
+            <p class="p3 ">
+                Lorem ipsum dolor sit.
+            </p>
+
+            <div class="producto-promo ">
+                <h3 class="titulo-promo">PRODUCTOS PROMO</h3>
+            </div>
+            <div class="promo1 ">
+                <img src="./images/vela-lavanda150px.png" alt="imagen">
+            </div>
+            <p class="p4 ">
+                Lorem ipsum dolor sit .
+            </p>
+            <div class="promo2 ">
+                <img src="./images/promo-3-150px.png" alt="imagen">
+            </div>
+            <p class="p5 ">
+                Lorem ipsum dolor sit.
+            </p>
+            <div class="promo3 ">
+                <img src="./images/portavela-dest2-150px.png" alt="imagen">
+            </div>
+            <p class="p6 ">
+                Lorem ipsum dolor sit.
+            </p>
+             
         </section> 
+
 
     </main>
    
