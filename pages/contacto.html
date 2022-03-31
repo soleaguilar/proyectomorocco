@@ -95,7 +95,7 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__contenedor ">
+        <div class="footer__contenedor media ">
            
                 <div class="footer-ush">
                     <h4>USHUAIA</h4>
@@ -112,25 +112,35 @@
                 </div>
            
                 <div  class="footer-suscribite">
-                    <h4>RECIBE NUESTRAS NOVEDADES</h4>
-                    <h5>Suscribite a nuestro newsletter y enterate de nuestras promos/h5>
-                    <h6>.............."cuadro email".............</h6>
+                    <div class="newsletter-subscribe mt-5 container">
+                        <div class="container">
+                            <div class="intro">
+                                <h2 class="text-center newsletter">RECIBE NUESTRAS NOVEDADES</h2>
+                                <p class="text-center">Suscribite a nuestro newsletter y enterate de nuestras promos </p>
+                            </div>
+                            <form class="form-inline" method="post">
+                                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Tu Email"></div>
+                                <div class="form-group"><button class="btn btn-primary" type="button">Suscribite </button></div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
         
                 <div class="footer-redes">
                     <h4>REDES SOCIALES</h4>
+                    <div>
+                        <img src="../images/logo-face50px50px.png" alt="facebook">
+                        <img src="../images/logo-insta50px50px.png" alt="instagram">
+                    </div>
                 </div>
 
-                <div>
-                    <img src="../images/logo-face50px50px.png" alt="facebook">
-                    <img src="../images/logo-insta50px50px.png" alt="instagram">
-                </div>    
+                    
          
         </div>
             
     </footer>
     
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
     <script>
         AOS.init();
     </script>
